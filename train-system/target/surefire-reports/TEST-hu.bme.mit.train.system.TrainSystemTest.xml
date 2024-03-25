@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="hu.bme.mit.train.system.TrainSystemTest" time="0.069" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="hu.bme.mit.train.system.TrainSystemTest" time="0.144" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10-post-Ubuntu-0ubuntu118.04.1"/>
@@ -43,7 +43,7 @@
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -60,8 +60,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="hu.bme.mit.train.system.TrainSystemTest" name="OverridingJoystickPositionToNegative_SetsReferenceSpeedToZero" time="0.014"/>
-  <testcase classname="hu.bme.mit.train.system.TrainSystemTest" name="OverridingJoystickPosition_IncreasesReferenceSpeed" time="0"/>
-  <testcase classname="hu.bme.mit.train.system.TrainSystemTest" name="TableRowAddedTest" time="0.055"/>
-  <testcase classname="hu.bme.mit.train.system.TrainSystemTest" name="EmergencyBrakeFunctions" time="0"/>
+  <testcase classname="hu.bme.mit.train.system.TrainSystemTest" name="OverridingJoystickPositionToNegative_SetsReferenceSpeedToZero" time="0.024"/>
+  <testcase classname="hu.bme.mit.train.system.TrainSystemTest" name="OverridingJoystickPosition_IncreasesReferenceSpeed" time="0.014"/>
+  <testcase classname="hu.bme.mit.train.system.TrainSystemTest" name="TableRowAddedTest" time="0.105"/>
+  <testcase classname="hu.bme.mit.train.system.TrainSystemTest" name="EmergencyBrakeFunctions" time="0.001"/>
 </testsuite>
